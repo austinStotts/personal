@@ -1,0 +1,27 @@
+{
+  "name": "personal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinStotts/personal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/austinStotts/personal/issues"
+  },
+  "homepage": "https://github.com/austinStotts/personal#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
+}
