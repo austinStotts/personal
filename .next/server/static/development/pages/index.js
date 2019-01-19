@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./components/click.js":
-/*!*****************************!*\
-  !*** ./components/click.js ***!
-  \*****************************/
+/***/ "./components/Anchor.js":
+/*!******************************!*\
+  !*** ./components/Anchor.js ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -108,20 +108,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/Austin/Desktop/personal/components/click.js";
+var _jsxFileName = "/Users/Austin/Desktop/personal/components/Anchor.js";
 
 
 
 
-var click = function click(props) {
+var anchor = function anchor(props) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3373297674",
+    className: "jsx-2913667930",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    as: props.as,
     href: props.link,
     __source: {
       fileName: _jsxFileName,
@@ -129,20 +130,20 @@ var click = function click(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    className: "jsx-3373297674",
+    className: "jsx-2913667930",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
   }, props.text)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    styleId: "3373297674",
-    css: "a.jsx-3373297674{font-family:\"arial\";font-size:17px;}a.jsx-3373297674:hover{color:red;}div.jsx-3373297674{display:inline-block;margin-right:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9BdXN0aW4vRGVza3RvcC9wZXJzb25hbC9jb21wb25lbnRzL2NsaWNrLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQU9rQixBQUcrQixBQUlWLEFBR1csVUFGdkIsVUFKaUIsQ0FPRyxjQU5wQixJQU9BIiwiZmlsZSI6Ii9Vc2Vycy9BdXN0aW4vRGVza3RvcC9wZXJzb25hbC9jb21wb25lbnRzL2NsaWNrLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY29uc3QgY2xpY2sgPSAocHJvcHMpID0+IChcbiAgPGRpdj5cbiAgICA8TGluayBocmVmPXtwcm9wcy5saW5rfT5cbiAgICAgIDxhPntwcm9wcy50ZXh0fTwvYT5cbiAgICA8L0xpbms+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGEge1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiBcImFyaWFsXCI7XG4gICAgICAgICAgZm9udC1zaXplOiAxN3B4O1xuICAgICAgICB9XG4gICAgICAgIGE6aG92ZXIge1xuICAgICAgICAgIGNvbG9yOiByZWQ7XG4gICAgICAgIH1cbiAgICAgICAgZGl2IHtcbiAgICAgICAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKVxuXG5leHBvcnQgZGVmYXVsdCBjbGljazsiXX0= */\n/*@ sourceURL=/Users/Austin/Desktop/personal/components/click.js */",
+    styleId: "2913667930",
+    css: "a.jsx-2913667930{color:black;font-family:\"arial\";font-size:17px;-webkit-text-decoration:none;text-decoration:none;-webkit-transition-duration:0.4s;transition-duration:0.4s;}a.jsx-2913667930:hover{color:red;}div.jsx-2913667930{display:inline-block;margin-right:10px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9BdXN0aW4vRGVza3RvcC9wZXJzb25hbC9jb21wb25lbnRzL0FuY2hvci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFPa0IsQUFHdUIsQUFPRixBQUdXLFVBRnZCLEVBUHNCLFNBVUYsV0FUSCxPQVVqQixRQVR1QixrREFDSSwwREFDM0IiLCJmaWxlIjoiL1VzZXJzL0F1c3Rpbi9EZXNrdG9wL3BlcnNvbmFsL2NvbXBvbmVudHMvQW5jaG9yLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExpbmsgZnJvbSAnbmV4dC9saW5rJztcblxuY29uc3QgYW5jaG9yID0gKHByb3BzKSA9PiAoXG4gIDxkaXY+XG4gICAgPExpbmsgYXM9e3Byb3BzLmFzfSBocmVmPXtwcm9wcy5saW5rfT5cbiAgICAgIDxhPntwcm9wcy50ZXh0fTwvYT5cbiAgICA8L0xpbms+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGEge1xuICAgICAgICAgIGNvbG9yOiBibGFjaztcbiAgICAgICAgICBmb250LWZhbWlseTogXCJhcmlhbFwiO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTdweDtcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgdHJhbnNpdGlvbi1kdXJhdGlvbjogMC40cztcbiAgICAgICAgfVxuICAgICAgICBhOmhvdmVyIHtcbiAgICAgICAgICBjb2xvcjogcmVkO1xuICAgICAgICB9XG4gICAgICAgIGRpdiB7XG4gICAgICAgICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMTBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICA8L2Rpdj5cbilcblxuZXhwb3J0IGRlZmF1bHQgYW5jaG9yOyJdfQ== */\n/*@ sourceURL=/Users/Austin/Desktop/personal/components/Anchor.js */",
     __self: this
   }));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (click);
+/* harmony default export */ __webpack_exports__["default"] = (anchor);
 
 /***/ }),
 
@@ -159,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "next/link");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _click__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./click */ "./components/click.js");
+/* harmony import */ var _Anchor__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Anchor */ "./components/Anchor.js");
 var _jsxFileName = "/Users/Austin/Desktop/personal/components/header.js";
 
 
@@ -175,7 +176,7 @@ var Header = function Header() {
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_click__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anchor__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: 'home',
     link: '/',
     __source: {
@@ -183,7 +184,7 @@ var Header = function Header() {
       lineNumber: 10
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_click__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Anchor__WEBPACK_IMPORTED_MODULE_2__["default"], {
     text: 'about',
     link: '/about',
     __source: {
@@ -241,6 +242,49 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
+/***/ "./components/title.js":
+/*!*****************************!*\
+  !*** ./components/title.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/Austin/Desktop/personal/components/title.js";
+
+
+
+var title = function title(props) {
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-3038207322",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-3038207322",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, props.text), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    styleId: "3038207322",
+    css: "h1.jsx-3038207322{font-size:30px;color:black;font-family:'arial';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9BdXN0aW4vRGVza3RvcC9wZXJzb25hbC9jb21wb25lbnRzL3RpdGxlLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUlrQixBQUcwQixlQUNILFlBQ1Esb0JBQ3RCIiwiZmlsZSI6Ii9Vc2Vycy9BdXN0aW4vRGVza3RvcC9wZXJzb25hbC9jb21wb25lbnRzL3RpdGxlLmpzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgdGl0bGUgPSAocHJvcHMpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2PlxuICAgICAgPGgxPntwcm9wcy50ZXh0fTwvaDE+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIGgxIHtcbiAgICAgICAgICBmb250LXNpemU6IDMwcHg7XG4gICAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgICAgIGZvbnQtZmFtaWx5OiAnYXJpYWwnO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgdGl0bGU7Il19 */\n/*@ sourceURL=/Users/Austin/Desktop/personal/components/title.js */",
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (title);
+
+/***/ }),
+
 /***/ "./pages/index.js":
 /*!************************!*\
   !*** ./pages/index.js ***!
@@ -253,9 +297,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout.js */ "./components/layout.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "next/link");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_title__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/title */ "./components/title.js");
+/* harmony import */ var _components_Anchor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Anchor */ "./components/Anchor.js");
 var _jsxFileName = "/Users/Austin/Desktop/personal/pages/index.js";
+
 
 
 
@@ -264,43 +309,39 @@ var PostLink = function PostLink(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    as: "/p/".concat(props.id),
-    href: "/post?title=".concat(props.title),
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Anchor__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    text: props.title,
+    as: "/p/".concat(props.id),
+    link: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
     },
     __self: this
-  }, props.title)));
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_layout_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_title__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    text: 'My Blog',
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 13
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
-    },
-    __self: this
-  }, "My Blog"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
@@ -308,7 +349,7 @@ var PostLink = function PostLink(props) {
     title: "Hello Next.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
@@ -316,7 +357,7 @@ var PostLink = function PostLink(props) {
     title: "Learn Next.js is awesome",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(PostLink, {
@@ -324,7 +365,7 @@ var PostLink = function PostLink(props) {
     title: "Deploy apps with Zeit",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   })));

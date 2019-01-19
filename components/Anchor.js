@@ -1,14 +1,17 @@
 import Link from 'next/link';
 
-const click = (props) => (
+const anchor = (props) => (
   <div>
-    <Link href={props.link}>
+    <Link as={props.as} href={props.link}>
       <a>{props.text}</a>
     </Link>
       <style jsx>{`
         a {
+          color: black;
           font-family: "arial";
           font-size: 17px;
+          text-decoration: none;
+          transition-duration: 0.4s;
         }
         a:hover {
           color: red;
@@ -21,4 +24,4 @@ const click = (props) => (
   </div>
 )
 
-export default click;
+export default anchor;

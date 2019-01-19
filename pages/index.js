@@ -1,17 +1,16 @@
 import Layout from '../components/layout.js'
-import Link from 'next/link'
+import Title from '../components/title';
+import Anchor from '../components/Anchor';
 
 const PostLink = (props) => (
   <li>
-    <Link as={`/p/${props.id}`} href={`/post?title=${props.title}`}>
-      <a>{props.title}</a>
-    </Link>
+    <Anchor text={props.title} as={`/p/${props.id}`} link={`/post?title=${props.title}`}/>
   </li>
 )
 
 export default () => (
   <Layout>
-    <h1>My Blog</h1>
+    <Title text={'My Blog'}/>
     <ul>
       <PostLink id="hello-nextjs" title="Hello Next.js"/>
       <PostLink id="learn-nextjs" title="Learn Next.js is awesome"/>

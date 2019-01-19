@@ -1,15 +1,15 @@
 import Link from 'next/link';
-import Click from './click';
+import Anchor from './Anchor';
 
 const linkStyle = {
   marginRight: 15
 }
 
 const Header = () => (
-    <div>
-        <Click text={'home'} link={'/'}/>
-        <Click text={'about'} link={'/about'}/>
-    </div>
+  <div>
+    <Anchor text={'home'} link={'/'}/>
+    <Anchor text={'about'} link={'/about'}/>
+  </div>
 )
 
 export default Header
